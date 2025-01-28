@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Uwazi Project</title>
+    <meta name="description" content="Explore Uwazi Project's anti-corruption services and programs in Kenya">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Uwazi</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="reports.html">Reports</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Services Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="animate-on-scroll">Our Services</h1>
+            <p class="animate-on-scroll">Comprehensive solutions for promoting transparency and fighting corruption</p>
+        </div>
+    </section>
+
+    <!-- Main Services -->
+    <section class="section">
+        <div class="container">
+            <div class="services-grid">
+                <div class="card animate-on-scroll">
+                    <h2>Corruption Reporting Platform</h2>
+                    <p>Our secure and anonymous platform allows citizens to report corruption cases safely. All reports are thoroughly investigated and followed up with relevant authorities.</p>
+                    <ul class="features-list">
+                        <li>Anonymous Reporting</li>
+                        <li>Secure Data Protection</li>
+                        <li>Case Tracking System</li>
+                        <li>Expert Investigation Support</li>
+                    </ul>
+                    <a href="#report" class="btn btn-primary">Report Corruption</a>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h2>Public Education Programs</h2>
+                    <p>We offer comprehensive training programs to help citizens and organizations identify, prevent, and combat corruption.</p>
+                    <ul class="features-list">
+                        <li>Anti-corruption Workshops</li>
+                        <li>Community Outreach</li>
+                        <li>Educational Resources</li>
+                        <li>Youth Programs</li>
+                    </ul>
+                    <a href="#education" class="btn btn-primary">Learn More</a>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h2>Institutional Support</h2>
+                    <p>We work with organizations to implement transparent practices and strengthen their anti-corruption measures.</p>
+                    <ul class="features-list">
+                        <li>Policy Development</li>
+                        <li>Compliance Training</li>
+                        <li>System Audits</li>
+                        <li>Best Practice Implementation</li>
+                    </ul>
+                    <a href="#support" class="btn btn-primary">Get Support</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Report Corruption Section -->
+    <section class="section" id="report">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Report Corruption</h2>
+            <div class="card">
+                <form class="report-form animate-on-scroll">
+                    <div class="form-group">
+                        <label for="incident-type">Type of Incident</label>
+                        <select id="incident-type" class="form-control" required>
+                            <option value="">Select incident type</option>
+                            <option value="bribery">Bribery</option>
+                            <option value="fraud">Fraud</option>
+                            <option value="embezzlement">Embezzlement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="incident-description">Description</label>
+                        <textarea id="incident-description" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact (Optional)</label>
+                        <input type="email" id="contact" class="form-control" placeholder="Your email (optional)">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Report</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Programs -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Education Programs</h2>
+            <div class="programs-grid">
+                <div class="card animate-on-scroll">
+                    <h3>Community Workshops</h3>
+                    <p>Regular workshops in communities across Kenya to raise awareness about corruption.</p>
+                    <a href="#" class="btn btn-primary">Register</a>
+                </div>
+                <div class="card animate-on-scroll">
+                    <h3>School Programs</h3>
+                    <p>Educational programs designed for schools to promote integrity from an early age.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="card animate-on-scroll">
+                    <h3>Professional Training</h3>
+                    <p>Specialized training for professionals and organizations.</p>
+                    <a href="#" class="btn btn-primary">Enroll</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@uwazi.org</p>
+                    <p>Phone: +254 XXX XXX XXX</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="reports.html">Reports</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Uwazi Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

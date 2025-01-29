@@ -6,6 +6,8 @@
     --dark-gray: #4A4A4A;
     --white: #FFFFFF;
     --black: #000000;
+    --uwazi-blue: #799EB2;
+    --uwazi-light: #B1D4E5;
 }
 
 /* Reset and base styles */
@@ -55,10 +57,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-blue);
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    color: var(--uwazi-blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: var(--uwazi-light);
+}
+
+.logo-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
 }
 
 .nav-links {
@@ -277,6 +292,14 @@ h1, h2, h3, h4, h5, h6 {
     .services-grid,
     .quick-links-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-icon {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
     }
 }
 

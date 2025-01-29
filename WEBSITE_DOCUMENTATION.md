@@ -20,7 +20,7 @@
 - **Typography:**
   - Headings: 'Montserrat' (sans-serif) - Bold and modern
   - Body Text: 'Open Sans' (sans-serif) - Clean and readable
-- **Imagery:** Stock photos focusing on:
+- **Imagery:** photos focusing on:
   - Governance themes
   - Kenyan contexts
   - Professional business settings
@@ -30,16 +30,15 @@
 
 ### Pages
 1. **Home Page**
-   - Hero section with compelling headline
-   - Key statistics about corruption in Kenya
+   - Section with compelling headline
    - Call-to-action buttons
-   - Featured success stories
+
 
 2. **About Page**
    - Mission and vision
    - Project objectives
    - Team behind Uwazi
-   - Partners and stakeholders
+   
 
 3. **Services/Programs Page**
    - Anti-corruption initiatives
@@ -47,13 +46,8 @@
    - Training programs
    - Resources
 
-4. **Reports Page**
-   - Corruption case studies
-   - Impact reports
-   - Success stories
-   - Data visualization
 
-5. **Contact Page**
+4. **Contact Page**
    - Contact form
    - Office location
    - Social media links
@@ -121,7 +115,6 @@
   ├── index.html
   ├── about.html
   ├── services.html
-  ├── reports.html
   ├── contact.html
   ├── assets/
   │   ├── images/
@@ -129,10 +122,9 @@
   │   └── fonts/
   ├── css/
   │   ├── style.css
-  │   └── responsive.css
+  │   
   └── js/
-      ├── main.js
-      └── charts.js
+      |_ main.js
   ```
 
 ## Content Strategy
@@ -146,8 +138,6 @@
 ### Content Types
 1. Written content:
    - Articles
-   - Case studies
-   - Reports
    - Success stories
 
 2. Visual content:
@@ -163,9 +153,5 @@
    - Progress indicators
 
 ## Next Steps
-1. Asset collection and preparation
-2. Development of HTML structure
-3. Implementation of CSS styling
-4. JavaScript functionality integration
-5. Testing and optimization
-6. Deployment to GitHub Pages
+1. Testing and optimization
+

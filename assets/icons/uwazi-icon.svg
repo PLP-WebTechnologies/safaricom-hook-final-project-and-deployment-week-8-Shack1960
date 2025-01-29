@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base circle representing transparency -->
+    <circle cx="32" cy="32" r="30" fill="#B1D4E5" opacity="0.8">
+        <animate attributeName="opacity" 
+                 values="0.8;1;0.8" 
+                 dur="2s" 
+                 repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Stylized eye shape -->
+    <path d="M16 32 Q32 20 48 32 Q32 44 16 32" 
+          stroke="#799EB2" 
+          stroke-width="3" 
+          fill="none">
+        <animate attributeName="stroke-width"
+                 values="3;4;3"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Center dot representing focus/accountability -->
+    <circle cx="32" cy="32" r="6" fill="#799EB2">
+        <animate attributeName="r"
+                 values="6;7;6"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Connected nodes representing blockchain -->
+    <g stroke="#799EB2" stroke-width="2">
+        <line x1="20" y1="45" x2="32" y2="32"/>
+        <line x1="44" y1="45" x2="32" y2="32"/>
+        <line x1="32" y1="19" x2="32" y2="32"/>
+        <circle cx="20" cy="45" r="3" fill="#799EB2"/>
+        <circle cx="44" cy="45" r="3" fill="#799EB2"/>
+        <circle cx="32" cy="19" r="3" fill="#799EB2"/>
+    </g>
+</svg>
